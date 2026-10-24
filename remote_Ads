@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "ads_enabled": true,
-  "test_mode": true,
+  "ads_enabled": false,
+  "test_mode": false,
   "cache_ttl_minutes": 1,
   "banner": {
-    "enabled": true,
+    "enabled": false,
     "placement": "top"
   },
   "interstitial": {
-    "enabled": true,
+    "enabled": false,
     "min_interval_seconds": 180
   },
   "rewarded": {
-    "enabled": true,
+    "enabled": false,
     "unlock_minutes": 30,
     "optional_features": [
       "personal_loan",
@@ -29,10 +29,10 @@
     ]
   },
   "native": {
-    "enabled": true
+    "enabled": false
   },
   "app_open": {
-    "enabled": true,
+    "enabled": false,
     "min_interval_seconds": 300
   },
   "android_test_ad_units": {
