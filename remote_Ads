@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "ads_enabled": true,
+  "test_mode": true,
+  "cache_ttl_minutes": 1,
+  "banner": {
+    "enabled": true,
+    "placement": "top"
+  },
+  "interstitial": {
+    "enabled": true,
+    "min_interval_seconds": 180
+  },
+  "rewarded": {
+    "enabled": true,
+    "unlock_minutes": 30,
+    "optional_features": [
+      "personal_loan",
+      "motorcycle_financing",
+      "car_financing",
+      "housing_financing",
+      "payroll_loan",
+      "credit_card_analysis",
+      "financial_analysis",
+      "advanced_comparison",
+      "amortization_details",
+      "detailed_report",
+      "export_pdf"
+    ]
+  },
+  "native": {
+    "enabled": true
+  },
+  "app_open": {
+    "enabled": true,
+    "min_interval_seconds": 300
+  },
+  "android_test_ad_units": {
+    "banner": "ca-app-pub-3940256099942544/6300978111",
+    "interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "rewarded": "ca-app-pub-3940256099942544/5224354917",
+    "native": "ca-app-pub-3940256099942544/2247696110",
+    "app_open": "ca-app-pub-3940256099942544/9257395921"
+  }
+}
